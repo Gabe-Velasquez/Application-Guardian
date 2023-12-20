@@ -15,15 +15,13 @@ export default function JobScreen() {
       <Text>Where did you get an interview at?</Text>
       <TextInput
       placeholder="Company Name"
-      style={{height:40, width:'80%', borderWidth:1, marginTop:10}}
+      style={{height:40, width:'80%', borderWidth:1, borderRadius:5, marginTop:10, marginBottom:10}}
       ></TextInput>
 
-      <Text>What kind of job is it?</Text>
+      <Text>What position are you interviewing for?</Text>
       <TextInput
       placeholder="Job Title"
-      multiline ={true}
-      numberOfLines= {4}
-      style={{paddingLeft:10, height:130, width:"90%" ,borderRadius:5,marginVertical:1}}
+      style={{paddingLeft:10, height:40, borderWidth: 1, width:"80%" ,borderRadius:5,marginVertical:1, marginBottom:10}}
       ></TextInput>
 
       <Text>What kind of job is it?</Text>
@@ -34,7 +32,7 @@ export default function JobScreen() {
       </Pressable>
 
       <Pressable onPress={() => alert('Pressed!')} >
-        <Text lightColor='rgba(0,0,0,0.8)' darkColor='rgba(255,255,255,0.8)'>
+        <Text lightColor='rgba(0,0,0,0.8)' darkColor='rgba(255,255,255,0.8)' style={{marginBottom:10}}>
           Non-Technical
         </Text>
       </Pressable>
