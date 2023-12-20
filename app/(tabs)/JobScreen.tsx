@@ -1,6 +1,5 @@
 import { Pressable, StyleSheet } from 'react-native';
-
-// import EditScreenInfo from '../../components/HomeScreenInfo';
+import EditScreenInfo from '../../components/WhyPrep';
 import { Text, View } from '../../components/Themed';
 
 export default function JobScreen() {
@@ -43,7 +42,6 @@ export default function JobScreen() {
           Hybrid
         </Text>
       </Pressable>
-      {/* <EditScreenInfo path="app/(tabs)/two.tsx" /> */}
     </View>
   );
 }

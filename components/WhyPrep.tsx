@@ -15,7 +15,7 @@ export default function EditScreenInfo({ path }: { path: string }) {
           style={styles.getStartedText}
           lightColor="rgba(0,0,0,0.8)"
           darkColor="rgba(255,255,255,0.8)">
-          This app is used to help job seekers keep track of the jobs they are applying for and help with each step.
+          You may ask, why is this important?
         </Text>
         <Text
           style={styles.getStartedText}
@@ -23,24 +23,6 @@ export default function EditScreenInfo({ path }: { path: string }) {
           darkColor="rgba(255,255,255,0.8)">
           Our app can push daily notifications to remind you to update job applicant entries and give some words of encouragement to keep on pressing through. Searching for a job is not easy so thank you for letting us help you in this journey!
         </Text>
-      </View>
-
-      <View style={{ flexDirection: 'row', alignItems: 'center' , justifyContent: 'center', }}>
-        <View style={[styles.helpLink]}>
-          
-            <Pressable>
-              <Text>
-                Create an account 
-              </Text>
-            </Pressable>
-
-            <Pressable>
-              <Text>
-                Login
-              </Text>
-            </Pressable>
-          
-        </View>
       </View>
     </View>
   );
