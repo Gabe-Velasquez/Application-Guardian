@@ -1,6 +1,7 @@
 import { Pressable, StyleSheet } from 'react-native';
 import EditScreenInfo from '../../components/WhyPrep';
 import { Text, View } from '../../components/Themed';
+import { TextInput } from 'react-native-gesture-handler';
 
 export default function JobScreen() {
   return (
@@ -11,33 +12,47 @@ export default function JobScreen() {
         lightColor='#eee'
         darkColor='rgba(255,255,255,0.1)'
       />
+      <Text>Where did you get an interview at?</Text>
+      <TextInput
+      placeholder="Company Name"
+      style={{height:40, width:'80%', borderWidth:1, marginTop:10}}
+      ></TextInput>
+
       <Text>What kind of job is it?</Text>
-      <Pressable>
+      <TextInput
+      placeholder="Job Title"
+      multiline ={true}
+      numberOfLines= {4}
+      style={{paddingLeft:10, height:130, width:"90%" ,borderRadius:5,marginVertical:1}}
+      ></TextInput>
+
+      <Text>What kind of job is it?</Text>
+      <Pressable onPress={() => alert('Pressed!')} >
         <Text lightColor='rgba(0,0,0,0.8)' darkColor='rgba(255,255,255,0.8)'>
           Technical
         </Text>
       </Pressable>
 
-      <Pressable>
+      <Pressable onPress={() => alert('Pressed!')} >
         <Text lightColor='rgba(0,0,0,0.8)' darkColor='rgba(255,255,255,0.8)'>
           Non-Technical
         </Text>
       </Pressable>
 
       <Text>Is your job on-site, remote or hybrid?</Text>
-      <Pressable>
+      <Pressable onPress={() => alert('Pressed!')} >
         <Text lightColor='rgba(0,0,0,0.8)' darkColor='rgba(255,255,255,0.8)'>
           On-site
         </Text>
       </Pressable>
 
-      <Pressable>
+      <Pressable onPress={() => alert('Pressed!')} >
         <Text lightColor='rgba(0,0,0,0.8)' darkColor='rgba(255,255,255,0.8)'>
           Remote
         </Text>
       </Pressable>
 
-      <Pressable>
+      <Pressable onPress={() => alert('Pressed!')} >
         <Text lightColor='rgba(0,0,0,0.8)' darkColor='rgba(255,255,255,0.8)'>
           Hybrid
         </Text>
