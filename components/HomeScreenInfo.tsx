@@ -25,7 +25,7 @@ export default function EditScreenInfo({ path }: { path: string }) {
         </Text>
       </View>
 
-      <View style={{ flexDirection: 'row', alignItems: 'center' , justifyContent: 'center'}}>
+      <View style={{ flexDirection: 'row', alignItems: 'center' , justifyContent: 'center', }}>
         <View style={[styles.helpLink]}>
           
             <Pressable>
@@ -70,6 +70,9 @@ const styles = StyleSheet.create({
   },
   helpLink: {
     paddingVertical: 15,
+    textAlign: 'center',
+    justifyContent: 'center',
+
   },
   helpLinkText: {
     textAlign: 'center',
