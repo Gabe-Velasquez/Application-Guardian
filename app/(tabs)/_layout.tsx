@@ -44,14 +44,14 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
-        name="Prep"
+        name="JobScreen"
         options={{
           title: 'Interview ',
           tabBarIcon: ({ color }) => <TabBarIcon name="code" color={color} />,
         }}
       />
       <Tabs.Screen
-        name="two"
+        name="Profile"
         options={{
           title: 'Profile',
           tabBarIcon: ({ color }) => <TabBarIcon name="code" color={color} />,
