@@ -21,7 +21,13 @@ export default function EditScreenInfo({ path }: { path: string }) {
           style={styles.getStartedText}
           lightColor="rgba(0,0,0,0.8)"
           darkColor="rgba(255,255,255,0.8)">
-          Our app can push daily notifications to remind you to update job applicant entries and give some words of encouragement to keep on pressing through. Searching for a job is not easy so thank you for letting us help you in this journey!
+          Like every skill, it is important that we keep up with it. Wayne Gretzky skated around bleach bottles and tin cans while flipping pucks over scattered hockey sticks. Tiger woods would practice golf for 13 hours a day while scheduling a workout in during his day.
+        </Text>
+        <Text
+          style={styles.getStartedText}
+          lightColor="rgba(0,0,0,0.8)"
+          darkColor="rgba(255,255,255,0.8)">
+          Interviewing is a skill and it is an important one for those looking for their next or even first opportunity. 
         </Text>
       </View>
     </View>
@@ -44,6 +50,7 @@ const styles = StyleSheet.create({
     fontSize: 17,
     lineHeight: 24,
     textAlign: 'center',
+    marginBottom: 10
   },
   helpContainer: {
     marginTop: 15,
