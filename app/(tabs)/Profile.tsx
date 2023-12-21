@@ -24,7 +24,8 @@ export default function Profile() {
       <View style={styles.separator} lightColor="#eee" darkColor="rgba(255,255,255,0.1)" />
       <Text style={styles.text}>{quote}</Text>
       <Text style={styles.text}>- {author}</Text>
-      {/* <EditScreenInfo path="app/(tabs)/two.tsx" /> */}
+      <View style={styles.separator} lightColor="#eee" darkColor="rgba(255,255,255,0.1)" />
+      {/* Build Profile and fetch data to display here */}
     </View>
   );
 }
