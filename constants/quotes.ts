@@ -1,9 +1,9 @@
-interface Quote {
+export interface Quote {
     quote: string;
     author: string;
   }
   
-  const quotes: Quote[] = [
+  export const quotes: Quote[] = [
     {
       quote: `Success is not final, failure is not fatal. It is the courage to continue that counts.`,
       author: `Winston Churchill`
@@ -53,60 +53,32 @@ interface Quote {
         author: `Roy T. Bennett`
     },
     {
-        quote:``,
-        author:``
+        quote:`Whenever you see a successful person, you only see the public glories, never the private sacrifices to reach them.`,
+        author:`Vaibhav Shah`
     },
     {
-        quote:``,
-        author:``
+        quote:`Courage is resistance to fear, mastery of fear--not absence of fear.`,
+        author:`Mark Twain`
     },
     {
-        quote:``,
-        author:``
+        quote:`If you are not willing to risk the usual, you will have to settle for the ordinary.`,
+        author:`Jim Rohn`
     },
     {
-        quote:``,
-        author:``
+        quote:`You may have to fight a battle more than once to win it.`,
+        author:`Margaret Thatcher`
     },
     {
-        quote:``,
-        author:``
+        quote:`Always bear in mind that your own resolution to success is more important than any other one thing.`,
+        author:`Abraham Lincoln`
     },
     {
-        quote:``,
-        author:``
+        quote:`Do what you have always done and you'll get what you have always got.`,
+        author:`Sue Knight`
     },
     {
-        quote:``,
-        author:``
-    },
-    {
-        quote:``,
-        author:``
-    },
-    {
-        quote:``,
-        author:``
-    },
-    {
-        quote:``,
-        author:``
-    },
-    {
-        quote:``,
-        author:``
-    },
-    {
-        quote:``,
-        author:``
-    },
-    {
-        quote:``,
-        author:``
-    },
-    {
-        quote:``,
-        author:``
+        quote:`You have to be burning with an idea, or a problem, or a wrong that you want to right. If you're not passionate enough from the start, you'll never stick it out.`,
+        author:`Steve Jobs`
     }
   ];
   
