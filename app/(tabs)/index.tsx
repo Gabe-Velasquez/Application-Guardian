@@ -68,5 +68,7 @@ const styles = StyleSheet.create({
   },
   quoteAuthor: {
     fontSize: 22,
+    paddingRight: 10,
+    textAlign: 'right'
   }  
 });
