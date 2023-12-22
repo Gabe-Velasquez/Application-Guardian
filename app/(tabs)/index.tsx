@@ -27,6 +27,7 @@ export default function TabOneScreen() {
             <Text style={styles.quoteAuthor}>- {randomQuote.author}</Text>
           </View>
         )}
+        <View style={styles.separator} lightColor="#eee" darkColor="rgba(255,255,255,0.1)" />
         <HomeScreenInfo path="app/(tabs)/index.tsx" />
         </ImageBackground>
       </View>
@@ -59,6 +60,8 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.1,
     shadowOffset:{width:-5,height:5},
     elevation: 5,
+    paddingTop: 10,
+    paddingBottom: 10
   },
   quoteText: {
     fontSize: 26,
