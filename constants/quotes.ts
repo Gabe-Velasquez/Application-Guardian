@@ -79,6 +79,14 @@ export interface Quote {
     {
         quote:`You have to be burning with an idea, or a problem, or a wrong that you want to right. If you're not passionate enough from the start, you'll never stick it out.`,
         author:`Steve Jobs`
+    },
+    {
+        quote:`The only way to do great work is to love what you do.`,
+        author:`Steve Jobs`
+    },
+    {
+        quote:`Believe you can and you're halfway there. The remaining half will show up when you need it.`,
+        author:`Theodore Roosevelt`
     }
   ];
   
