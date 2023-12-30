@@ -31,5 +31,9 @@ export interface TechQuestions {
     {
         question: `Explain a time when you had to quickly learn a new technology or tool to meet the demands of a project.`,
         company: `Netflix`
+    },
+    {
+        question: `Using software testing methodology, describe how you would test a microwave?`,
+        company: `Apple`
     }
 ];
