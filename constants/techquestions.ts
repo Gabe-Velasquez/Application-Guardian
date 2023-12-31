@@ -35,5 +35,9 @@ export interface TechQuestions {
     {
         question: `Using software testing methodology, describe how you would test a microwave?`,
         company: `Apple`
+    },
+    {
+        question: ``,
+        company: ``
     }
 ];
