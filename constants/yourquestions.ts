@@ -21,6 +21,14 @@ export interface YourQuestions {
         who:`recruiter`
     },
     {
+        question: `Have other candidates been passed over? If so, why?`,
+        who: `recruiter or hiring manager`
+    },
+    {
+        question: `What is the compensation package for this position like?`,
+        who: `recruiter`
+    },
+    {
         question:`Are you the only recruiter working for this company?`,
         who:`recruiter`
     },
