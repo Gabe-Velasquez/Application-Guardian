@@ -52,5 +52,9 @@ export interface YourQuestions {
         question:`Is working remotely an option? If so, is it a long-term option, or will that change?`,
         who:`recruiter`
     },
+    {
+        question:`Is remote is not available, is there a relocation package offered?`,
+        who:`recruiter`
+    }
     
   ];
