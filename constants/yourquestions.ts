@@ -55,6 +55,14 @@ export interface YourQuestions {
     {
         question:`Is remote is not available, is there a relocation package offered?`,
         who:`recruiter`
+    },
+    {
+        question: `What type of qualities are you looking for in the ideal candidate?`,
+        who: `hiring manager`
+    },
+    {
+        question:`What have been the biggest barriers for this team in the past?`,
+        who:`hiring manager`
     }
     
   ];
